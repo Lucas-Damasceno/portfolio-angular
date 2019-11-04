@@ -1,0 +1,33 @@
+<div class="about-container">
+  <div class="about-me">
+    <h3>Lucas A. Damasceno</h3>
+      <p class="me-about">Olá! me chamo Lucas, tenho 21 anos e sou um desenvolvedor<b> Front-End</b>.
+      <br>
+      Conclui o curso superior de Design Digital na Universidade Anhembi Morumbi em 2018, atualmente meu foco é o desenvolvimento WEB, mas também faço Branding de Marcas, edições de fotos, instalação do LAMP (Linux, Apache, Mysql, Php) em servidores e projetos simples de embarcados.<br><br>
+      Quase sempre faço uso do framework Vue.js para facilitar e agilizar o trabalho no Front-end, no Back-end eu utilizo primariamente PHP, apesar de também utilizar Node.js em algumas situações pontuais. Sei o básico de GIT, e me sinto confortavel utilizando Windows, Linux ou MacOS.<br><br>
+      Para projeto de embarcados geralmente utilizo os microcontroladores ESP 8266 ou ESP32.
+      </p>
+  </div>
+
+  <div class="skills">
+    <h3>Habilidades</h3>
+
+    <div class="skills-container">
+      <div *ngFor="let skill of skills" class="skill-node">
+        
+        <div class="skill-icon">
+          <img [src]="'img/icon/' + skill.icon + '.jpg'">
+        </div>
+
+        <div class="skill-name">
+          {{skill.name}}
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <div class="academic-formation">
+
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem
+}
+
+.skill-node{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
