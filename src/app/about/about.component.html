@@ -16,18 +16,49 @@
       <div *ngFor="let skill of skills" class="skill-node">
         
         <div class="skill-icon">
-          <img [src]="'img/icon/' + skill.icon + '.jpg'">
+          <img [src]="'assets/img/icons/' + skill.icon + '.svg'">
         </div>
 
         <div class="skill-name">
           {{skill.name}}
         </div>
-      
+        
       </div>
     </div>
   </div>
 
   <div class="academic-formation">
+
+    <div class="academic-container">
+
+      <div class="academic-node" *ngFor="let formation of academicFormation">
+
+        <div class="academic-img">
+          <img [src]="'assets/img/icons/' + formation.icon + '.png'" alt="">
+        </div>
+        
+        <div class="academic-year">
+          {{formation.year}}
+        </div>
+
+        <div class="academic-text">
+          
+          <div class="academic-text-title">
+            {{formation.name}}
+          </div>
+          
+          <div class="academic-text-subtitle">
+            {{formation.organization}}
+          </div>
+          
+          <div class="adacemic-text-descrition">
+            {{formation.description}}
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
 
   </div>
 </div>

@@ -16,13 +16,13 @@ export class AboutComponent implements OnInit {
     {
       name: 'CSS 3',
       percentage: 8,
-      icon: ''
+      icon: 'css3'
     },
 
     {
       name: 'Javascript',
       percentage: 8,
-      icon: ''
+      icon: 'javascript'
     },
 
     {
@@ -82,34 +82,35 @@ export class AboutComponent implements OnInit {
       name: 'Design Multimídia',
       organization: 'Obra Social Dom Bosco',
       description: 'Integração do Web Design (Atividade do Design voltado à projetos na internet), da Arquitetura da Informação, da Animação e da Manipulação de áudio e Vídeo.',
-      icon: ''
+      icon: 'blackboard'
     },
     {
       year: '2015 ~ 2018',
       name: 'Design Digital',
       organization: 'Universidade Anhembi Morumbi',
       description: 'A Graduação em Design Digital da Anhembi Morumbi é um bacharelado pioneiro neste segmento, considerada uma referência nacional.',
-      icon: ''
+      icon: 'hat'
     },
     {
       year: '2015 ~ 2018',
       name: 'Introdução ao Vue.js',
       organization: 'Udemy',
       description: 'Você vai aprender os conceitos iniciais e vai avançar a cada aula entrando no mundo do desenvolvimento com Vue JS de uma forma bem tranquila.',
-      icon: ''
+      icon: 'cellphone'
     },
     {
       year: '2019',
       name: 'Formação Angular',
       organization: 'Alura',
       description: 'Aprenda as vantagens de um dos frameworks mais utilizados no mundo e requisitados no mercado!',
-      icon: ''
+      icon: 'cellphone'
     }
   ]
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

@@ -10,6 +10,8 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 import { ProjectPageComponent } from './project-page/project-page.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { FirstBlockComponent } from './first-block/first-block.component';
+import { ProjectsBlockComponent } from './projects-block/projects-block.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactComponent } from './contact/contact.component';
     ErrorPageComponent,
     ProjectPageComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    FirstBlockComponent,
+    ProjectsBlockComponent
   ],
   imports: [
     BrowserModule,

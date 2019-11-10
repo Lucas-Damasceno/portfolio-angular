@@ -15,3 +15,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
+.academic-node{
+    display: grid;
+    grid-template-columns: 80px auto;
+}
