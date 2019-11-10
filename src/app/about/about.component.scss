@@ -1,22 +1,119 @@
 .about-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 8rem;
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-.skills-container{
+h3{
+    font-size: 1.5rem;
+}
+
+.about-title{
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+.about-me{
+    grid-column: 2 / 5;
+    grid-row: 2;
+    margin-bottom: 10rem;
+}
+
+.about-me p{
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.about-title h2{
+    font-size: 2.4rem;
+}
+
+.skills{
+    grid-row: 3;
+    grid-column: 2 span;
+}
+
+.skills h3:last-of-type{
+    margin-top: 4rem;
+}
+
+.skill-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem
+    column-gap: 1rem;
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.academic-formation{
+    grid-row: 3;
+    grid-column: 2 span;
 }
 
 .skill-node{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 40px auto;
 }
 
-.academic-node{
+.skill-node img{
+    width: 30px;
+    filter: invert(30%);
+}
+
+.skill-name{
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.formation-icon-wrapper{
+    background-color: #d5d6d8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.formation-icon{
+    width: 100%;
+    margin-top: 3px;
+}
+
+.academic-formation-node{
     display: grid;
-    grid-template-columns: 80px auto;
+    grid-template-columns: 80px auto auto;
+    grid-template-areas: 
+    'formationName formationName year'
+    'iconImg organization organization'
+    'iconImg description description';
+    margin-bottom: 3rem;
+
+}
+
+.academic-formation-node h4{
+    grid-area: formationName;
+}
+
+.academic-formation-node span{
+    grid-area: year;
+    margin-bottom: 1rem;
+    display: block;
+    align-self: center;
+    margin: 0;
+    font-family: "Montserrat-Bold";
+}
+
+.academic-formation-node .formation-icon-wrapper{
+    grid-area: iconImg;
+}
+
+.academic-formation-node h5{
+    grid-area: organization;
+    margin: 0;
+}
+
+.academic-formation-node p{
+    grid-area: description;
+    margin: 0;
 }

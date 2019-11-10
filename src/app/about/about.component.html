@@ -1,64 +1,75 @@
 <div class="about-container">
-  <div class="about-me">
-    <h3>Lucas A. Damasceno</h3>
-      <p class="me-about">Olá! me chamo Lucas, tenho 21 anos e sou um desenvolvedor<b> Front-End</b>.
+
+  <div class="about-title">
+    <h2>
+      Olá! Seja bem vindo ao meu portfólio!
       <br>
-      Conclui o curso superior de Design Digital na Universidade Anhembi Morumbi em 2018, atualmente meu foco é o desenvolvimento WEB, mas também faço Branding de Marcas, edições de fotos, instalação do LAMP (Linux, Apache, Mysql, Php) em servidores e projetos simples de embarcados.<br><br>
-      Quase sempre faço uso do framework Vue.js para facilitar e agilizar o trabalho no Front-end, no Back-end eu utilizo primariamente PHP, apesar de também utilizar Node.js em algumas situações pontuais. Sei o básico de GIT, e me sinto confortavel utilizando Windows, Linux ou MacOS.<br><br>
-      Para projeto de embarcados geralmente utilizo os microcontroladores ESP 8266 ou ESP32.
-      </p>
+      Me chamo Lucas e sou um desenvolvedor Front-End!
+    </h2>
   </div>
 
-  <div class="skills">
-    <h3>Habilidades</h3>
-
-    <div class="skills-container">
-      <div *ngFor="let skill of skills" class="skill-node">
-        
-        <div class="skill-icon">
-          <img [src]="'assets/img/icons/' + skill.icon + '.svg'">
-        </div>
-
-        <div class="skill-name">
-          {{skill.name}}
-        </div>
-        
-      </div>
-    </div>
+  <div class="about-me">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac tempor risus. Sed vitae massa in libero finibus ornare. Nam a est consectetur, porttitor purus ut, porttitor magna. Duis egestas elit sit amet nunc congue ultrices. Proin nec eros convallis dui egestas vehicula. Duis sed ligula imperdiet, maximus ligula vel, placerat dolor. Ut tempus sed nulla et sollicitudin. Etiam a velit accumsan, porta mauris quis, venenatis turpis. Nunc neque sapien, aliquet aliquet congue a, congue ac ante.
+    </p>
   </div>
 
   <div class="academic-formation">
+    <h3>Formação Acadêmica:</h3>
 
-    <div class="academic-container">
+    <div class="academic-formation-container">
 
-      <div class="academic-node" *ngFor="let formation of academicFormation">
+      <div *ngFor="let formation of academicFormation" class="academic-formation-node">
 
-        <div class="academic-img">
-          <img [src]="'assets/img/icons/' + formation.icon + '.png'" alt="">
+        <h4>{{formation.name}}</h4>
+
+        <span>{{formation.year}}</span>
+
+        <div class="formation-icon-wrapper">
+            <img class="formation-icon" [src]="'assets/img/icons/' + formation.icon + '.svg' " alt="">
         </div>
-        
-        <div class="academic-year">
-          {{formation.year}}
-        </div>
 
-        <div class="academic-text">
+        <h5>{{formation.organization}}</h5>
+
+        <p>{{formation.description}}</p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="skills">
+    <h3>Eu trabalho constantemente com:</h3>
+
+    <div class="skill-container">
+      <div *ngFor="let skill of skills" class="skill-node">
           
-          <div class="academic-text-title">
-            {{formation.name}}
-          </div>
-          
-          <div class="academic-text-subtitle">
-            {{formation.organization}}
-          </div>
-          
-          <div class="adacemic-text-descrition">
-            {{formation.description}}
-          </div>
-          
-        </div>
+        <img [src]="'assets/img/icons/' + skill.icon + '.svg'" alt="">
+
+        <div class="skill-name">
+          {{skill.name}}
+        </div>    
 
       </div>
     </div>
 
-  </div>
+    <h3>Já fiz projetos utilizando:</h3>
+
+    <div class="skill-container">
+      <div *ngFor="let skill of lessSkills" class="skill-node">
+          
+        <img [src]="'assets/img/icons/' + skill.icon + '.svg'" alt="">
+
+        <div class="skill-name">
+          {{skill.name}}
+        </div>    
+
+      </div>
+    </div>
+
+
+
+  </div>  
+  
+
 </div>

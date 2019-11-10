@@ -28,49 +28,54 @@ export class AboutComponent implements OnInit {
     {
       name: 'Angular',
       percentage: 7,
-      icon: ''
-    },
-
-    {
-      name: 'Vue.js',
-      percentage: 6,
-      icon: ''
-    },
-
-    {
-      name: 'Php',
-      percentage: 6,
-      icon: ''
-    },
-
-    {
-      name: 'MySQL',
-      percentage: 6,
-      icon: ''
-    },
-
-    {
-      name: 'Arduíno',
-      percentage: 8,
-      icon: ''
+      icon: 'angular'
     },
 
     {
       name: 'Photoshop',
       percentage: 7,
-      icon: ''
+      icon: 'photoshop'
     },
 
+
+
+  ]
+
+  lessSkills = [
     {
       name: 'Illustrator',
       percentage: 6,
-      icon: ''
+      icon: 'illustrator'
     },
 
     {
       name: 'Indesign',
       percentage: 5,
-      icon: ''
+      icon: 'indesign'
+    },
+
+    {
+      name: 'Vue.js',
+      percentage: 6,
+      icon: 'vue'
+    },
+
+    {
+      name: 'Php',
+      percentage: 6,
+      icon: 'php'
+    },
+
+    {
+      name: 'MySQL',
+      percentage: 6,
+      icon: 'mysql'
+    },
+
+    {
+      name: 'Arduíno',
+      percentage: 8,
+      icon: 'arduino'
     },
 
 
@@ -78,10 +83,10 @@ export class AboutComponent implements OnInit {
 
   academicFormation = [
     {
-      year: '2014 ~ 2015',
-      name: 'Design Multimídia',
-      organization: 'Obra Social Dom Bosco',
-      description: 'Integração do Web Design (Atividade do Design voltado à projetos na internet), da Arquitetura da Informação, da Animação e da Manipulação de áudio e Vídeo.',
+      year: '2019',
+      name: 'Formação Angular',
+      organization: 'Alura',
+      description: 'Aprenda as vantagens de um dos frameworks mais utilizados no mundo e requisitados no mercado!',
       icon: 'blackboard'
     },
     {
@@ -92,19 +97,12 @@ export class AboutComponent implements OnInit {
       icon: 'hat'
     },
     {
-      year: '2015 ~ 2018',
-      name: 'Introdução ao Vue.js',
-      organization: 'Udemy',
-      description: 'Você vai aprender os conceitos iniciais e vai avançar a cada aula entrando no mundo do desenvolvimento com Vue JS de uma forma bem tranquila.',
-      icon: 'cellphone'
-    },
-    {
-      year: '2019',
-      name: 'Formação Angular',
-      organization: 'Alura',
-      description: 'Aprenda as vantagens de um dos frameworks mais utilizados no mundo e requisitados no mercado!',
-      icon: 'cellphone'
-    }
+      year: '2014 ~ 2015',
+      name: 'Design Multimídia',
+      organization: 'Obra Social Dom Bosco',
+      description: 'Integração do Web Design (Atividade do Design voltado à projetos na internet), da Arquitetura da Informação, da Animação e da Manipulação de áudio e Vídeo.',
+      icon: 'diploma'
+    }  
   ]
 
   constructor() { }
