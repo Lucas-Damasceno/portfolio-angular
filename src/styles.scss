@@ -19,6 +19,35 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Montserrat-Bold";
 }
 
+label{
+    font-family: "Montserrat-Bold";
+}
+
 p{
     color: #252525;
+}
+
+button{
+    padding: 1rem 3rem;
+    font-family: "Montserrat-Bold";
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid #81c3f0;
+    cursor: pointer;
+    color: #585858;
+}
+
+button:focus{
+    outline: none;
+    box-shadow: 0 3px 6px rgba(42, 42, 43, 0.1), 0 3px 6px rgba(31, 31, 31, 0.15);
+}
+
+button:hover{
+    box-shadow: 0 3px 6px rgba(42, 42, 43, 0.1), 0 3px 6px rgba(31, 31, 31, 0.15);
+}
+
+.text-blue{
+    background-color: #e0e8f0;
+    display: inline-block;
+    padding: 0 5px;
 }

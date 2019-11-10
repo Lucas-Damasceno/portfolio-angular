@@ -12,9 +12,16 @@ h3{
 }
 
 .about-title{
-    grid-column: 1 / 4;
+    grid-column: 1 / 5;
     grid-row: 1;
+    margin-top: 25vh;
 }
+
+// .about-title span{
+//     background-color: #e0e8f0;
+//     display: inline-block;
+//     padding: 0 5px;
+// }
 
 .about-me{
     grid-column: 2 / 5;
@@ -68,7 +75,7 @@ h3{
 }
 
 .formation-icon-wrapper{
-    background-color: #d5d6d8;
+    background-color: #e0e8f0;
     border-radius: 50%;
     width: 40px;
     height: 40px;

@@ -1,3 +1,40 @@
-<div class="contact-container">
+<div class="contact-background">
+    <div class="contact-container">
+        <h2>Entre em Contato</h2>
 
+        <div class="social-medias">
+            <ng-container *ngFor="let element of socialMedia">
+                <a [href]="element.link" target="_blank">
+                    <div class="social-node">
+                        <img [src]="'assets/img/' + element.icon + '.svg'" [alt]="element.name">
+                        <h6>{{element.name}}</h6>
+                        <a [href]="element.link" target="_blank">{{element.humanLink}}</a>
+                    </div>
+                </a>
+
+            </ng-container>
+        </div>
+
+        <div class="direct-contact">
+            <div class="nome-container">
+                <label>Nome</label>
+                <input type="text">        
+            </div>
+
+            <div class="email-container">
+                <label for="">Email</label>
+                <input type="text">        
+            </div>            
+
+            <div class="textarea-container">
+                <label for="">Digite sua mensagem</label>
+                <textarea name="" id=""></textarea>        
+            </div>
+
+        </div>
+
+        <div class="send-button">
+            <button>Enviar</button>
+        </div>
+    </div>
 </div>

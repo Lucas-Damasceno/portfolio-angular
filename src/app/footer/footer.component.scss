@@ -1,5 +1,17 @@
 footer{
-    background-color: #d5d6d8;
+    background-color: #e6e9ee;
     width: 100%;
     height: 100px;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+span{
+    display: inline-block;
+    margin-right: 100px;
+    align-self: center;
+    font-family: "Montserrat-Bold";
+    color: #585858;
+    opacity: (.7);
 }
