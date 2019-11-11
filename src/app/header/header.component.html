@@ -5,15 +5,29 @@
 
   <div class="menu-itens">
     <ul>
-      <li>Home</li>
-      <li>Projetos</li>
-      <li>Sobre</li>
-      <li>Contato</li>
+      <a [routerLink]="['/']" fragment="home">
+        <li>Home</li>
+      </a>
+
+      <a [routerLink]="['/']" fragment="projects">
+        <li>Projetos</li>
+      </a>
+
+      <a [routerLink]="['/']" fragment="about">
+        <li>Sobre</li>
+      </a>
+
+      <a [routerLink]="['/']" fragment="contact">
+        <li>Contato</li>
+      </a>
+
     </ul>
   </div>
 
   <div class="social-icons">
-    <img src="assets/img/linkedin.svg" alt="Linkedin Icon">
+    <a href="">
+      <img src="assets/img/linkedin.svg" alt="Linkedin Icon">
+    </a>
     <img src="assets/img/github.svg" alt="Github Icon">
     <img src="assets/img/behance.svg" alt="Behance Icon">
   </div>

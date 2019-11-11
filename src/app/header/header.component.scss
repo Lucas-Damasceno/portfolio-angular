@@ -24,6 +24,11 @@ header{
     width: 90px;
 }
 
+.menu-itens a{
+    color: inherit;
+    text-decoration: none; /* no underline */      
+}
+
 .menu-itens ul{
     list-style: none;
     padding-left: 25px;

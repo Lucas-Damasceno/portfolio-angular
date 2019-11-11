@@ -1,3 +1,30 @@
-<p>
-  project-page works!
-</p>
+<div class="project-page-container">
+  <div class="fixed-content">
+    <img [src]="'assets/img/card/' + project.cardName + '.jpg'" alt="">
+
+    <h1> {{ project.name }} </h1>
+
+    <p [innerHTML]="project.description"></p>
+
+    <h2>
+      O que eu fiz
+    </h2>
+
+    <ul class="roles-list">
+      <li *ngFor="let role of project.roles">{{role}}</li>
+    </ul>
+
+    <h2>
+      Ferramentas utilizadas 
+    </h2>
+
+    <div class="tools-container">
+      <img *ngFor="let tool of project.tools" [src]="'assets/img/icons/' + tool + '.svg'" alt="">
+    </div>
+
+  </div>
+
+  <div class="scrollable-content">
+
+  </div>
+</div>

@@ -53,7 +53,7 @@ a{
     margin-top: 2rem;
     // background-color: #eff3f7;
     margin-bottom: 2rem;
-    gap: 2rem;
+    gap: 1rem;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 55px 1fr;
@@ -87,7 +87,7 @@ input:focus, textarea:focus{
 
 .textarea-container textarea{
     margin: 0;
-    height: calc(100% - 1.5rem);
+    height: calc(100% - 1.1rem);
 }
 
 .textarea-container{

@@ -12,6 +12,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FirstBlockComponent } from './first-block/first-block.component';
 import { ProjectsBlockComponent } from './projects-block/projects-block.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { ProjectsBlockComponent } from './projects-block/projects-block.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

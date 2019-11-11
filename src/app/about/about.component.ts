@@ -32,6 +32,13 @@ export class AboutComponent implements OnInit {
     },
 
     {
+      name: 'Sass',
+      percentage: 7,
+      icon: 'sass'
+    },
+
+
+    {
       name: 'Photoshop',
       percentage: 7,
       icon: 'photoshop'

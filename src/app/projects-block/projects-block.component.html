@@ -3,9 +3,11 @@
     
     <img [src]="'assets/img/card/' + project.cardName + '.jpg'" [alt]="project.name + 'image'" class="card-image">
     
-    <div class="card-text">
-      AAAAAAAA
-    </div>
+    <a [routerLink]="['/project/' + project.link]">
+      <div class="card-text">
+        AAAAAAAA
+      </div>      
+    </a>
 
   </div>
 </div>
