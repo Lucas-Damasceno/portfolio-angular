@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,8 +7,13 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  menuMobileOpen = false;
 
-  constructor(route: ActivatedRoute) { }
+  constructor(route: ActivatedRoute, private router: Router) {
+    router.events.subscribe(val => {
+      this.menuMobileOpen = false;
+    });
+  }
 
   ngOnInit() {
   }

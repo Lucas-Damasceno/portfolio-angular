@@ -53,3 +53,23 @@
     max-width: 30px;
     margin-right: 10px;
 }
+
+
+@media screen and (max-width: 970px){
+    .project-apresentation{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 5rem;
+    }
+
+    .project-apresentation h1{
+        font-size: 3rem;
+    }
+
+    .roles, .tools{
+        width: 100%;
+    }
+}

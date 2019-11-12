@@ -1,4 +1,4 @@
-header{
+.header-desktop{
     width: 125px;
     position: fixed;
     left: 0;
@@ -54,4 +54,103 @@ header{
 
 .social-icons img:last-of-type{
     padding-bottom: 0;
+}
+
+.header-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+    .header-desktop{
+        display: none;
+        border: 0;
+    }
+
+    .header-mobile{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 50px;
+        background-color: #f6f8fa;
+        border-bottom: 1px solid rgb(219, 219, 219);
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1.5rem; 
+        box-sizing: border-box;
+    }
+
+    .logo img{
+        width: 53px;
+    }
+
+    .social-icons{
+        display: block;
+        text-align: right;
+    }
+
+    .social-icons img{
+        margin: 0;
+        margin-right: 10px;
+        transform: scale(0.8);
+    }
+
+    .social-icons:last-child{
+        margin-right: 0;
+    }
+
+    .menu-line{
+        height: 5px;
+        width: 30px;
+        background-color: #999;
+        border-radius: 2px;
+        margin-bottom: 5px;
+        transition: 0.3s;    
+    }
+
+    .menu-mobile{
+        height: 0;
+        width: 100vw;
+        text-align: center;
+        overflow: hidden;
+        transition: .3s;
+        position: fixed;
+        z-index: 5;
+        top: 50px;
+        background-color: #e0e8f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-open{
+        height: calc(100vh - 50px);
+    }
+
+    .menu-mobile ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .menu-mobile ul a{
+        text-decoration: none;
+        color: #585858;
+        font-size: 2.5rem;
+        font-family: "Montserrat-Bold";
+
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .social-icons img{
+        margin: 0;
+    }
 }

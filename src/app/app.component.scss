@@ -2,3 +2,9 @@
     margin-left: 125px; /* header width */
     min-height: calc(100vh - 100px);
 }
+
+@media screen and (max-width: 1000px){
+    .main-container{
+        margin-left: 0;
+    }
+}

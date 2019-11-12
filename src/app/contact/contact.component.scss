@@ -6,6 +6,7 @@
 .contact-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 80%;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -98,4 +99,20 @@ input:focus, textarea:focus{
     grid-column: 2 span;
     text-align: right;
     margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1000px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-node{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .textarea-container textarea{
+        height: 200px;
+    }
 }

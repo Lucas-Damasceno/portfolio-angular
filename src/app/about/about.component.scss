@@ -5,6 +5,7 @@
     box-sizing: border-box;
     max-width: 1400px;
     margin: 0 auto;
+    width: 80%;
     padding-bottom: 6rem;
     margin-top: 3px;
 }
@@ -125,4 +126,18 @@ h3{
 .academic-formation-node p{
     grid-area: description;
     margin: 0;
+}
+
+
+@media screen and(max-width: 1000px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width: 550px){
+    .skill-container{
+        grid-template-columns: 1fr;
+    }
 }
