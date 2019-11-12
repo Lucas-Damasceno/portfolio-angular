@@ -4,6 +4,9 @@
     align-items: center;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(6, 1fr);
+    background: url("/assets/img/background.svg") no-repeat;
+    background-position: 90% 50%;
+    background-size: 45%;
 }
 
 .main-text{
@@ -26,6 +29,13 @@ h1{
     width: 80px;
 }
 
+@media screen and(max-width: 960px){
+    .first-block{
+        background-position: bottom;
+    }
+    
+}
+
 @media screen and (max-width: 550px){
     h1{
         font-size: 3rem;
@@ -35,4 +45,5 @@ h1{
     .arrow-down img{
         width: 40px;
     }
+
 }

@@ -123,11 +123,13 @@ export class ProjectsService {
     {
       name: 'Pantera!',
       cardName: 'pantera',
-      description: '',
-      roles: [],
-      link: '',
+      description: 'Nesse cartaz quis testar algumas técnicas e fugir do padrão hollywoodiano de cartazes, o objetivo era trazer um pouco mais da África, isso pode ser visto pela escolha das Fontes e pelo Pattern tipicamente africano utilizado no fundo.',
+      roles: [
+        'Editor'
+      ],
+      link: 'pantera',
       tools: [
-
+        'photoshop'
       ],
       imgs: []
     },
