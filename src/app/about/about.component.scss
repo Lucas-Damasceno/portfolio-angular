@@ -141,3 +141,9 @@ h3{
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 360px){
+    .about-title h2{
+        font-size: 2rem;
+    }
+}

@@ -116,3 +116,9 @@ input:focus, textarea:focus{
         height: 200px;
     }
 }
+
+@media screen and (max-width: 550px){
+    .send-button button{
+        width: 100%;
+    }
+}
