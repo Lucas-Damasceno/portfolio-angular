@@ -9,10 +9,20 @@ export class ProjectsService {
       name: 'Mamuth Mangueiras',
       cardName: 'mamuth',
       description: 'Neste projeto fiquei encarregado de recriar o site da Mamuth, o site antigo era muito pesado, não amigavel ao mobile e estava tendo problemas com a hospedagem, o primeiro passo foi sair de uma hospedagem compartilhada e ir pra uma VPS, optei pela Linode em vez da Digital Ocean por já estar familiarizado, a plataforma escolhida foi o Wordpress, o site foi construido encima de um tema comprado na ThemeForest, também foi utilizado o plugin Polylang para adição de outros idiomas (Inglês e Espanhol).',
-      roles: [],
+      roles: [
+        'User Interface (UI)',
+        'Configuração do Servidor',
+        'Back-End',
+        'Front-End'
+      ],
       link: 'mamuth-mangueiras',
       tools: [
-
+        'illustrator',
+        'photoshop',
+        'wordpress',
+        'html5',
+        'css3',
+        'javascript'
       ],
       imgs: []
     },
@@ -70,22 +80,32 @@ export class ProjectsService {
     {
       name: 'Adventure Time!',
       cardName: 'adventure_time',
-      description: '',
-      roles: [],
-      link: '',
+      description: 'Diagramação de uma matéria para uma revista digital, o tema foi o encerramento de Hora de Aventura em seu oitavo ano, o modelo utilizado para o desenho do Finn foi um StoryBoard Oficial.',
+      roles: [
+        'illustração',
+        'diagramação'
+      ],
+      link: 'adventure-time',
       tools: [
-
+        'illustrator',
+        'indesign',
+        'photoshop'
       ],
       imgs: []
     },
     {
       name: 'Legion!',
       cardName: 'card-legion',
-      description: '',
-      roles: [],
-      link: '',
+      description: 'Exercicío de Diagramação criando uma pequena revista sobre a direção de Arte da Série LEGION da FX.',
+      roles: [
+        'diagramação',
+        'texto'
+      ],
+      link: 'legion',
       tools: [
-
+        'illustrator',
+        'indesign',
+        'photoshop'
       ],
       imgs: []
     },
