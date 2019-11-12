@@ -24,6 +24,23 @@
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards a{
+    text-decoration: none;
+    color: #585858;
+}
+
+.cards h3{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.cards button{
+    background-color: #e0e8f0;
 }
 
 .card-text:hover{

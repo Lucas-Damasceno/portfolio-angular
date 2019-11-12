@@ -60,6 +60,10 @@
     display: none;
 }
 
+.menu-mobile{
+    display: none;
+}
+
 @media screen and (max-width: 1000px){
     .header-desktop{
         display: none;
@@ -80,6 +84,10 @@
         align-items: center;
         padding: 0 1.5rem; 
         box-sizing: border-box;
+    }
+
+    .header-mobile > * {
+        margin-top: -4px;
     }
 
     .logo img{
