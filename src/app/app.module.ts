@@ -13,6 +13,8 @@ import { ContactComponent } from './contact/contact.component';
 import { FirstBlockComponent } from './first-block/first-block.component';
 import { ProjectsBlockComponent } from './projects-block/projects-block.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

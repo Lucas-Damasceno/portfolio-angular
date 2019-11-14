@@ -18,23 +18,27 @@
         <div class="direct-contact">
             <div class="nome-container">
                 <label>Nome</label>
-                <input type="text">        
+                <input type="text" [(ngModel)]="name">
             </div>
 
             <div class="email-container">
                 <label for="">Email</label>
-                <input type="text">        
-            </div>            
+                <input type="text" [(ngModel)]="email">
+            </div>
 
             <div class="textarea-container">
                 <label for="">Digite sua mensagem</label>
-                <textarea name="" id=""></textarea>        
+                <textarea name="" id="" [(ngModel)]="message"></textarea>
             </div>
+
+            <h5 *ngIf="error" class="error">Os campos devem estar preenchidos</h5>
+
+            <h5 *ngIf="success" class="sucess">Enviado com sucesso</h5>
 
         </div>
 
         <div class="send-button">
-            <button>Enviar</button>
+            <button (click)="checkForm()">Enviar</button>
         </div>
     </div>
 </div>

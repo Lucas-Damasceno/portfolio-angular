@@ -32,6 +32,11 @@
   </div>
 
 
+  <div class="project-imgs">
+    <img *ngFor="let img of project.imgs" [src]="'assets/img/' + project.link + '/' + img" alt="">
+  </div>
+
+
 
 
     <!-- <div class="fixed-content">

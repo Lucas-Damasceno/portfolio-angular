@@ -39,9 +39,9 @@ export class AboutComponent implements OnInit {
 
 
     {
-      name: 'Photoshop',
+      name: 'Svn',
       percentage: 7,
-      icon: 'photoshop'
+      icon: 'svn'
     },
 
 
@@ -85,12 +85,24 @@ export class AboutComponent implements OnInit {
       icon: 'arduino'
     },
 
+    {
+      name: 'Photoshop',
+      percentage: 7,
+      icon: 'photoshop'
+    },
+
+    {
+      name: 'Github',
+      percentage: 7,
+      icon: 'github'
+    },
+
 
   ]
 
   academicFormation = [
     {
-      year: '2019',
+      year: '2019 ~ ?',
       name: 'Formação Angular',
       organization: 'Alura',
       description: 'Aprenda as vantagens de um dos frameworks mais utilizados no mundo e requisitados no mercado!',

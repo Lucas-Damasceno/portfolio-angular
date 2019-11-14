@@ -101,6 +101,14 @@ input:focus, textarea:focus{
     margin-bottom: 5rem;
 }
 
+.error{
+    color: rgb(187, 63, 63);
+}
+
+.success{
+    color: rgb(91, 228, 125);
+}
+
 @media screen and (max-width: 1000px){
     .contact-container{
         display: flex;

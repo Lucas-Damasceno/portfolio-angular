@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
@@ -28,10 +29,41 @@ export class ContactComponent implements OnInit {
 
   ];
 
-  constructor() { }
+  name;
+  email;
+  message;
+  error = false;
+  success = false;
+
+  url = 'https://lucasdalves.com/email.php'
+
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    
+  }
+
+  checkForm() {
+
+    console.log(this.name, this.email, this.message)
+    if(this.name && this.email && this.message) {
+
+      this.error = false;
+
+      this.http.post(this.url, {
+        name: this.name,
+        email: this.email,
+        message: this.message
+      }).subscribe(res => console.log(res));
+
+      this.success = true;
+
+    } else {
+      this.error = true;
+      this.success = false;
+
+    }
+
+
   }
 
 }
