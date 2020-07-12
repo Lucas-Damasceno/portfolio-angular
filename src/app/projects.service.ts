@@ -135,27 +135,50 @@ export class ProjectsService {
         'three.jpg'
       ]
     },
+    // {
+    //   name: 'Legion!',
+    //   cardName: 'card-legion',
+    //   description: 'Exercicío de Diagramação criando uma pequena revista sobre a direção de Arte da Série LEGION da FX.',
+    //   roles: [
+    //     'diagramação',
+    //     'texto'
+    //   ],
+    //   link: 'legion',
+    //   tools: [
+    //     'illustrator',
+    //     'indesign',
+    //     'photoshop'
+    //   ],
+    //   imgs: [
+    //     'one.jpg',
+    //     'two.jpg',
+    //     'three.jpg',
+    //     'four.jpg'
+    //   ]
+    // },
     {
-      name: 'Legion!',
-      cardName: 'card-legion',
-      description: 'Exercicío de Diagramação criando uma pequena revista sobre a direção de Arte da Série LEGION da FX.',
+      name: 'Hotsite Bradesco Saúde',
+      cardName: 'bradesco',
+      description: 'Hotsite desenvolvido para Célebre corretora',
       roles: [
-        'diagramação',
-        'texto'
+        'Desenho da interface',
+        'Front-End',
+        'Configuração do Servidor',
+        'Integração com Analytics'
       ],
-      link: 'legion',
+      link: 'bradesco',
       tools: [
-        'illustrator',
-        'indesign',
-        'photoshop'
+        'postman',
+        'html5',
+        'css3',
+        'javascript'
       ],
       imgs: [
         'one.jpg',
-        'two.jpg',
-        'three.jpg',
-        'four.jpg'
+        'two.jpg'
       ]
     },
+
     {
       name: 'Admin - Kontrol',
       cardName: 'admin',

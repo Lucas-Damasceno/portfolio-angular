@@ -32,18 +32,22 @@ export class AboutComponent implements OnInit {
     },
 
     {
+      name: 'Typescript',
+      percentage: 7,
+      icon: 'typescript'
+    },
+
+    {
       name: 'Sass',
       percentage: 7,
       icon: 'sass'
     },
 
-
     {
-      name: 'Svn',
+      name: 'Github',
       percentage: 7,
-      icon: 'svn'
+      icon: 'github'
     },
-
 
 
   ]
@@ -92,9 +96,9 @@ export class AboutComponent implements OnInit {
     },
 
     {
-      name: 'Github',
+      name: 'Svn',
       percentage: 7,
-      icon: 'github'
+      icon: 'svn'
     },
 
 
