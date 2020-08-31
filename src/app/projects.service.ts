@@ -12,6 +12,7 @@ export class ProjectsService {
       roles: [
         'User Interface (UI)',
         'Configuração do Servidor',
+        'Hospedagem',
         'Back-End',
         'Front-End'
       ],
@@ -115,26 +116,26 @@ export class ProjectsService {
         'three.jpg'
       ]
     },
-    {
-      name: 'Adventure Time!',
-      cardName: 'adventure_time',
-      description: 'Diagramação de uma matéria para uma revista digital, o tema foi o encerramento de Hora de Aventura em seu oitavo ano, o modelo utilizado para o desenho do Finn foi um StoryBoard Oficial.',
-      roles: [
-        'illustração',
-        'diagramação'
-      ],
-      link: 'adventure-time',
-      tools: [
-        'illustrator',
-        'indesign',
-        'photoshop'
-      ],
-      imgs: [
-        'one.jpg',
-        'two.jpg',
-        'three.jpg'
-      ]
-    },
+    // {
+    //   name: 'Adventure Time!',
+    //   cardName: 'adventure_time',
+    //   description: 'Diagramação de uma matéria para uma revista digital, o tema foi o encerramento de Hora de Aventura em seu oitavo ano, o modelo utilizado para o desenho do Finn foi um StoryBoard Oficial.',
+    //   roles: [
+    //     'illustração',
+    //     'diagramação'
+    //   ],
+    //   link: 'adventure-time',
+    //   tools: [
+    //     'illustrator',
+    //     'indesign',
+    //     'photoshop'
+    //   ],
+    //   imgs: [
+    //     'one.jpg',
+    //     'two.jpg',
+    //     'three.jpg'
+    //   ]
+    // },
     // {
     //   name: 'Legion!',
     //   cardName: 'card-legion',
@@ -164,6 +165,7 @@ export class ProjectsService {
         'Desenho da interface',
         'Front-End',
         'Configuração do Servidor',
+        'Hospedagem',
         'Integração com Analytics'
       ],
       link: 'bradesco',
@@ -174,8 +176,7 @@ export class ProjectsService {
         'javascript'
       ],
       imgs: [
-        'one.jpg',
-        'two.jpg'
+        'one.png',
       ]
     },
 
@@ -202,25 +203,70 @@ export class ProjectsService {
         'two.jpg'
       ]
     },
+    // {
+    //   name: 'Pantera!',
+    //   cardName: 'pantera',
+    //   description: 'Nesse cartaz quis testar algumas técnicas e fugir do padrão hollywoodiano de cartazes, o objetivo era trazer um pouco mais da África, isso pode ser visto pela escolha das Fontes e pelo Pattern tipicamente africano utilizado no fundo.',
+    //   roles: [
+    //     'Editor',
+    //     'Diagramação',
+    //   ],
+    //   link: 'pantera',
+    //   tools: [
+    //     'photoshop'
+    //   ],
+    //   imgs: [
+    //     'one.jpg',
+    //     'two.jpg'
+    //   ]
+    // },
     {
-      name: 'Pantera!',
-      cardName: 'pantera',
-      description: 'Nesse cartaz quis testar algumas técnicas e fugir do padrão hollywoodiano de cartazes, o objetivo era trazer um pouco mais da África, isso pode ser visto pela escolha das Fontes e pelo Pattern tipicamente africano utilizado no fundo.',
+      name: 'Hotsite Unimed!',
+      cardName: 'unimed',
+      description: 'Hotsite desenvolvido para Célebre corretora',
       roles: [
-        'Editor',
-        'Diagramação',
+        'Desenho da interface',
+        'Front-End',
+        'Configuração do servidor',
+        'Hospedagem',
+        'Integração com Analytics'
       ],
-      link: 'pantera',
+      link: 'unimed',
       tools: [
-        'photoshop'
+        'postman',
+        'html5',
+        'css3',
+        'javascript',
+        'angular 8'
       ],
       imgs: [
-        'one.jpg',
-        'two.jpg'
+        'one.png',
       ]
     },
 
-
+    {
+      name: 'Hotsite Sul América!',
+      cardName: 'sul-america',
+      description: 'Hotsite desenvolvido para Célebre corretora',
+      roles: [
+        'Desenho da interface',
+        'Front-End',
+        'Configuração do servidor',
+        'Hospedagem',
+        'Integração com Analytics'
+      ],
+      link: 'sul-america',
+      tools: [
+        'postman',
+        'html5',
+        'css3',
+        'javascript',
+        'angular 8'
+      ],
+      imgs: [
+        'one.png',
+      ]
+    },
 
 
   ]
