@@ -11,6 +11,10 @@
     src: url('assets/fonts/Montserrat-Bold.ttf');
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Open-Sans-Regular";
 }

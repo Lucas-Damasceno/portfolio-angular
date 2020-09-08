@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Projects } from './interfaces/projects';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProjectsService {
-  projects: Array<ProjectObject> = [
+  projects: Projects[] = [
     {
       name: 'Mamuth Mangueiras',
       cardName: 'mamuth',
@@ -30,6 +31,7 @@ export class ProjectsService {
         'two.png'
       ]
     },
+
     {
       name: 'Cidadelas',
       cardName: 'cidadelas',
@@ -221,7 +223,7 @@ export class ProjectsService {
     //   ]
     // },
     {
-      name: 'Hotsite Unimed!',
+      name: 'Hotsite Unimed',
       cardName: 'unimed',
       description: 'Hotsite desenvolvido para Célebre corretora',
       roles: [
@@ -237,50 +239,65 @@ export class ProjectsService {
         'html5',
         'css3',
         'javascript',
-        'angular 8'
+        'angular'
       ],
       imgs: [
         'one.png',
       ]
     },
 
+    // {
+    //   name: 'Hotsite Sul América',
+    //   cardName: 'sul-america',
+    //   description: 'Hotsite desenvolvido para Célebre corretora',
+    //   roles: [
+    //     'Desenho da interface',
+    //     'Front-End',
+    //     'Configuração do servidor',
+    //     'Hospedagem',
+    //     'Integração com Analytics'
+    //   ],
+    //   link: 'sul-america',
+    //   tools: [
+    //     'postman',
+    //     'html5',
+    //     'css3',
+    //     'javascript',
+    //     'angular 8'
+    //   ],
+    //   imgs: [
+    //     'one.png',
+    //   ]
+    // },
+
     {
-      name: 'Hotsite Sul América!',
-      cardName: 'sul-america',
-      description: 'Hotsite desenvolvido para Célebre corretora',
+      name: 'CoronaQuiz',
+      cardName: 'coronaquiz',
+      description: 'Sistema de Quiz desenvolvido para Célebre corretora',
       roles: [
-        'Desenho da interface',
+        'Ilustrador',
         'Front-End',
-        'Configuração do servidor',
-        'Hospedagem',
-        'Integração com Analytics'
+        'UI',
+        'UX',
       ],
-      link: 'sul-america',
+      link: 'coronaquiz',
       tools: [
         'postman',
         'html5',
         'css3',
         'javascript',
-        'angular 8'
+        'angular'
       ],
       imgs: [
-        'one.png',
-      ]
-    },
-
-
+        '1.png',
+        '2.png',
+        '3.png',
+        '4.png',
+        '5.png',
+      ],
+      imgColumns: 2,
+    }
   ]
 
   constructor() { }
-}
-
-export class ProjectObject {
-    name;
-    cardName;
-    description;
-    roles;
-    link;
-    tools = [
-    ];
-    imgs: any = []
 }

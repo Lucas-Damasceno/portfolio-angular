@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProjectsService } from '../projects.service';
 import { Subscription } from 'rxjs';
+import { Projects } from '../interfaces/projects'
 
 @Component({
   selector: 'app-project-page',
@@ -10,8 +11,8 @@ import { Subscription } from 'rxjs';
 })
 export class ProjectPageComponent implements OnInit, OnDestroy {
   projectParams: any = {};
-  projects: any = [];
-  project: any = {};
+  projects: Projects[] = [];
+  project: Projects;
   projectSubscription$: Subscription;
 
   constructor(private router: Router,private route: ActivatedRoute, private projectsService: ProjectsService) {}
