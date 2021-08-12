@@ -49,6 +49,14 @@ export class AboutComponent implements OnInit {
       icon: 'github'
     },
 
+    {
+      name: 'Amazon Web Services',
+      percentage: 4,
+      icon: 'aws'
+    },
+
+    
+
 
   ]
 

@@ -118,26 +118,26 @@ export class ProjectsService {
         'three.jpg'
       ]
     },
-    // {
-    //   name: 'Adventure Time!',
-    //   cardName: 'adventure_time',
-    //   description: 'Diagramação de uma matéria para uma revista digital, o tema foi o encerramento de Hora de Aventura em seu oitavo ano, o modelo utilizado para o desenho do Finn foi um StoryBoard Oficial.',
-    //   roles: [
-    //     'illustração',
-    //     'diagramação'
-    //   ],
-    //   link: 'adventure-time',
-    //   tools: [
-    //     'illustrator',
-    //     'indesign',
-    //     'photoshop'
-    //   ],
-    //   imgs: [
-    //     'one.jpg',
-    //     'two.jpg',
-    //     'three.jpg'
-    //   ]
-    // },
+    {
+      name: 'Adventure Time!',
+      cardName: 'adventure_time',
+      description: 'Diagramação de uma matéria para uma revista digital, o tema foi o encerramento de Hora de Aventura em seu oitavo ano, o modelo utilizado para o desenho do Finn foi um StoryBoard Oficial.',
+      roles: [
+        'illustração',
+        'diagramação'
+      ],
+      link: 'adventure-time',
+      tools: [
+        'illustrator',
+        'indesign',
+        'photoshop'
+      ],
+      imgs: [
+        'one.jpg',
+        'two.jpg',
+        'three.jpg'
+      ]
+    },
     // {
     //   name: 'Legion!',
     //   cardName: 'card-legion',
@@ -159,28 +159,6 @@ export class ProjectsService {
     //     'four.jpg'
     //   ]
     // },
-    {
-      name: 'Hotsite Bradesco Saúde',
-      cardName: 'bradesco',
-      description: 'Hotsite desenvolvido para Célebre corretora',
-      roles: [
-        'Desenho da interface',
-        'Front-End',
-        'Configuração do Servidor',
-        'Hospedagem',
-        'Integração com Analytics'
-      ],
-      link: 'bradesco',
-      tools: [
-        'postman',
-        'html5',
-        'css3',
-        'javascript'
-      ],
-      imgs: [
-        'one.png',
-      ]
-    },
 
     {
       name: 'Admin - Kontrol',
@@ -205,6 +183,30 @@ export class ProjectsService {
         'two.jpg'
       ]
     },
+
+    {
+      name: 'Hotsite Bradesco Saúde',
+      cardName: 'bradesco',
+      description: 'Hotsite desenvolvido para Célebre corretora',
+      roles: [
+        'Desenho da interface',
+        'Front-End',
+        'Configuração do Servidor',
+        'Hospedagem',
+        'Integração com Analytics'
+      ],
+      link: 'bradesco',
+      tools: [
+        'postman',
+        'html5',
+        'css3',
+        'javascript'
+      ],
+      imgs: [
+        'one.png',
+      ]
+    },
+    
     // {
     //   name: 'Pantera!',
     //   cardName: 'pantera',
@@ -222,27 +224,48 @@ export class ProjectsService {
     //     'two.jpg'
     //   ]
     // },
+    // {
+    //   name: 'Hotsite Unimed',
+    //   cardName: 'unimed',
+    //   description: 'Hotsite desenvolvido para Célebre corretora',
+    //   roles: [
+    //     'Front-End',
+    //     'Configuração do servidor',
+    //     'Hospedagem',
+    //     'Integração com Analytics'
+    //   ],
+    //   link: 'unimed',
+    //   tools: [
+    //     'postman',
+    //     'html5',
+    //     'css3',
+    //     'javascript',
+    //     'angular'
+    //   ],
+    //   imgs: [
+    //     'one.png',
+    //   ]
+    // },
     {
-      name: 'Hotsite Unimed',
-      cardName: 'unimed',
-      description: 'Hotsite desenvolvido para Célebre corretora',
+      name: 'Nestle Scan Saude',
+      cardName: 'nestle',
+      description: '',
       roles: [
-        'Desenho da interface',
         'Front-End',
-        'Configuração do servidor',
-        'Hospedagem',
-        'Integração com Analytics'
       ],
-      link: 'unimed',
+      link: 'nestle',
       tools: [
-        'postman',
+        'angular',
         'html5',
         'css3',
-        'javascript',
-        'angular'
+        'sass',
+        'javascript'
       ],
       imgs: [
         'one.png',
+        'two.png',
+        'three.png',
+        'four.png'
       ]
     },
 
@@ -270,33 +293,33 @@ export class ProjectsService {
     //   ]
     // },
 
-    {
-      name: 'CoronaQuiz',
-      cardName: 'coronaquiz',
-      description: 'Sistema de Quiz desenvolvido para Célebre corretora',
-      roles: [
-        'Ilustrador',
-        'Front-End',
-        'UI',
-        'UX',
-      ],
-      link: 'coronaquiz',
-      tools: [
-        'postman',
-        'html5',
-        'css3',
-        'javascript',
-        'angular'
-      ],
-      imgs: [
-        '1.png',
-        '2.png',
-        '3.png',
-        '4.png',
-        '5.png',
-      ],
-      imgColumns: 2,
-    }
+    // {
+    //   name: 'CoronaQuiz',
+    //   cardName: 'coronaquiz',
+    //   description: 'Sistema de Quiz desenvolvido para Célebre corretora',
+    //   roles: [
+    //     'Ilustrador',
+    //     'Front-End',
+    //     'UI',
+    //     'UX',
+    //   ],
+    //   link: 'coronaquiz',
+    //   tools: [
+    //     'postman',
+    //     'html5',
+    //     'css3',
+    //     'javascript',
+    //     'angular'
+    //   ],
+    //   imgs: [
+    //     '1.png',
+    //     '2.png',
+    //     '3.png',
+    //     '4.png',
+    //     '5.png',
+    //   ],
+    //   imgColumns: 2,
+    // }
   ]
 
   constructor() { }
